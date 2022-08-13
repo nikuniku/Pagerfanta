@@ -1,0 +1,21 @@
+{
+    "name": "WezpExtension/pagerfanta-bridge",
+    "type": "WezpExtension-bridge",
+    "description": "WezpExtension Pagerfanta Bridge",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikunja",
+            "email": "nikunja_1989@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "pagerfanta/pagerfanta": "1.0.*"
+    },
+    "autoload": {
+        "psr-0": { "WezpExtension\\Bridge\\Pagerfanta\\": "" }
+    },
+    "target-dir": "WezpExtension/Bridge/Pagerfanta",
+    "minimum-stability": "dev"
+}
